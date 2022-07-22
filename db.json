@@ -1,16 +1,759 @@
 {
-  "posts":[
+  "posts": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "naam": "Rinki",
+      "age": "20",
+      "address": "bicholi mardana, indore",
+      "department": "Mechanical",
+      "salary": "45000",
+      "status": false,
+      "id": 1
+    },
+    {
+      "naam": "Neetu",
+      "age": "22",
+      "address": "vinovapuri",
+      "department": "Electrical",
+      "salary": "40000",
+      "status": false,
+      "id": 2
+    },
+    {
+      "naam": "urmila",
+      "age": "34",
+      "address": "vinovapuri",
+      "department": "Electronics",
+      "salary": "45000",
+      "status": "false",
+      "id": 6
+    },
+    {
+      "naam": "Asha",
+      "age": "45",
+      "address": "Sasaram",
+      "department": "Electrical",
+      "salary": "50000",
+      "status": "false",
+      "id": 7
+    },
+    {
+      "naam": "Gaurav",
+      "age": "21",
+      "address": "vinovapuri",
+      "department": "Electrical",
+      "salary": "40000",
+      "status": "false",
+      "id": 8
+    },
+    {
+      "naam": "Jahnvi",
+      "status": true,
+      "id": 9
+    },
+    {
+      "naam": "fuffa",
+      "status": true,
+      "id": 10
     }
   ],
-  "comments" : [
+  "product": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "name": "SmartPhone",
+      "price": 20000,
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX1H7Ni42N7G0aPnldSqjEWtWJdZEofeW3Hw&usqp=CAU",
+      "id": 1
+    },
+    {
+      "name": "Watch",
+      "price": 250,
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq6prP61A3bU0Hn8psG6Nfv-8VkaErTxUmgA&usqp=CAU",
+      "id": 2
+    },
+    {
+      "name": "Latest Watch",
+      "price": 400,
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBcBT0DPSaEGnIApRcUYcaG9RpTcVbwvou-g&usqp=CAU",
+      "id": 3
+    },
+    {
+      "name": "Shirt",
+      "price": 50,
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVZFGSEdh3_f3oC9ybB0k6S-I0WaXZDvOtfw&usqp=CAU",
+      "id": 4
+    },
+    {
+      "name": "Shirt-short-sleeves",
+      "price": 500,
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt5kbXDYC8lBIFDev364J8R23uhsDV_fjYgg&usqp=CAU",
+      "id": 5
+    },
+    {
+      "name": "Pants",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVe0f2wazHf8tW5YdnquDk-bVEhxYfJU_2xg&usqp=CAU",
+      "price": 1000,
+      "id": 6
+    },
+    {
+      "name": "Android",
+      "price": 50000,
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtGBiuOdzXXyomRnjRhlNZmPycpSHkjimCVw&usqp=CAU",
+      "id": 7
     }
-  ]
+  ],
+  "new-arrivals": [
+    {
+      "name": "KaschKasch Floor Mirror",
+      "menu": "Menu",
+      "strikethrough": 279,
+      "price": 237,
+      "url": "https://hausimg.imgix.net/s/files/1/0053/2792/products/8000539_KaschKaschFloorMirror_Black_01_1024x1024.jpg?v=1655809560&auto=format&w=430&",
+      "id": 1
+    },
+    {
+      "name": "Ready Dining Chair By Menu",
+      "menu": "Menu",
+      "strikethrough": 349,
+      "price": 296,
+      "url": "https://hausimg.imgix.net/s/files/1/0053/2792/products/8201100-01ZZZZZZ_Ready_Dining_Chair_Red_Stained_Oak_Red_Stained_Oak_Red_Stained_Oak_Angle_1024x1024.jpg?v=1655740135&auto=format&w=430&",
+      "id": 2
+    },
+    {
+      "name": "KaschKasch Floor Mirror",
+      "menu": "Menu",
+      "strikethrough": 279,
+      "price": 237,
+      "url": "https://hausimg.imgix.net/s/files/1/0053/2792/products/8000539_KaschKaschFloorMirror_Black_01_1024x1024.jpg?v=1655809560&auto=format&w=430&",
+      "id": 3
+    },
+    {
+      "name": "Plinth grand",
+      "menu": "Menu",
+      "strikethrough": 2499,
+      "price": 2124,
+      "url": "https://hausimg.imgix.net/s/files/1/0053/2792/products/7030319_Plinth_Grand_Calacatta_Viola_Top_1_1024x1024.jpg?v=1655739239&auto=format&w=430&",
+      "id": 4
+    },
+    {
+      "name": "KaschKasch Floor Mirror",
+      "menu": "Menu",
+      "strikethrough": 279,
+      "price": 237,
+      "url": "https://hausimg.imgix.net/s/files/1/0053/2792/products/8000539_KaschKaschFloorMirror_Black_01_1024x1024.jpg?v=1655809560&auto=format&w=430&",
+      "id": 5
+    },
+    {
+      "name": "Hashira Portable Table Lamp",
+      "menu": "Menu",
+      "strikethrough": 149,
+      "price": 126,
+      "url": "https://hausimg.imgix.net/s/files/1/0053/2792/products/1508699Y_Hashira_Table_Lamp_Portable_Raw_front_on_1024x1024.jpg?v=1655561997&auto=format&w=430&",
+      "id": 6
+    },
+    {
+      "name": "Androgyne Loung Table (Marble",
+      "menu": "Menu",
+      "strikethrough": 1479,
+      "price": 1257,
+      "url": "https://hausimg.imgix.net/s/files/1/0053/2792/products/1189869_Androgyne_Lounge_Table_Walnut_Calacatta_Viola_angle_1024x1024.jpg?v=1655739289&auto=format&w=430&",
+      "id": 7
+    },
+    {
+      "name": "KaschKasch Floor Mirror",
+      "menu": "Menu",
+      "strikethrough": 279,
+      "price": 237,
+      "url": "https://hausimg.imgix.net/s/files/1/0053/2792/products/8000539_KaschKaschFloorMirror_Black_01_1024x1024.jpg?v=1655809560&auto=format&w=430&",
+      "id": 8
+    },
+    {
+      "name": "Ray Portable Table Lamp By Daniel Schfield for Menu",
+      "menu": "Menu",
+      "strikethrough": 179,
+      "price": 152,
+      "url": "https://hausimg.imgix.net/s/files/1/0053/2792/products/1890469Y_Ray_Table_Lamp_Portable_Dusty_Green_front_on_1024x1024.jpg?v=1655554828&auto=format&w=430&&",
+      "id": 9
+    },
+    {
+      "name": "Tearoom Lounge Chair Swivel With Return By Menu",
+      "menu": "Menu",
+      "strikethrough": 1969,
+      "price": 1637,
+      "url": "https://hausimg.imgix.net/s/files/1/0053/2792/products/9608201-00DJ05ZZ_Tearoom_Lounge_Chair_Swivel_W_Return_Champion_41_angle_1024x1024.jpg?v=1655553078&auto=format&w=430&",
+      "id": 10
+    },
+    {
+      "name": "Tearoom Side Chair Swivel With Return By Menu",
+      "menu": "Menu",
+      "strikethrough": 1539,
+      "price": 1308,
+      "url": "https://hausimg.imgix.net/s/files/1/0053/2792/products/9609201-00DJ04ZZ_Tearoom_Side_Chair_Swivel_W_Return_Champion_41_angle_1024x1024.jpg?v=1655549997&auto=format&w=430&",
+      "id": 11
+    },
+    {
+      "name": "Locker Box",
+      "menu": "Vitra",
+      "strikethrough": 185,
+      "price": 157,
+      "url": "https://hausimg.imgix.net/s/files/1/0053/2792/products/5601830_LockerBoxbrick_v_fullbleed_1440x_0027a396-d88b-47ff-ab85-86d72198af16_1024x1024.jpg?v=1655739355&auto=format&w=430&",
+      "id": 12
+    },
+    {
+      "name": "Splash Vase Coffee and White",
+      "menu": "Hay",
+      "strikethrough": 99,
+      "price": 89,
+      "url": "https://hausimg.imgix.net/s/files/1/0053/2792/products/508224_SplashVaseRollNeckLcoffeeandwhite_1024x1024.jpg?v=1654625433&auto=format&w=430&",
+      "id": 13
+    },
+    {
+      "name": "May Door Outdoor Light",
+      "menu": "FLows",
+      "strikethrough": 215,
+      "price": 182,
+      "url": "https://hausimg.imgix.net/s/files/1/0053/2792/products/MayDayOut_Black_phPieroFasanotto_1024x1024.jpg?v=1654628387&auto=format&w=430&",
+      "id": 14
+    },
+    {
+      "name": "Piloti Table Stone",
+      "menu": "Fredericia",
+      "strikethrough": 1595,
+      "price": 1355,
+      "url": "https://hausimg.imgix.net/s/files/1/0053/2792/products/HP_6750_greykenzo_v2_6750_1024x1024.jpg?v=1653403102&auto=format&w=430&",
+      "id": 15
+    },
+    {
+      "name": "KaschKasch Floor Mirror",
+      "menu": "Menu",
+      "strikethrough": 279,
+      "price": 237,
+      "url": "https://hausimg.imgix.net/s/files/1/0053/2792/products/8000539_KaschKaschFloorMirror_Black_01_1024x1024.jpg?v=1655809560&auto=format&w=430&",
+      "id": 16
+    },
+    {
+      "name": "Ready Dining Chair By Menu",
+      "menu": "Menu",
+      "strikethrough": 349,
+      "price": 296,
+      "url": "https://hausimg.imgix.net/s/files/1/0053/2792/products/8201100-01ZZZZZZ_Ready_Dining_Chair_Red_Stained_Oak_Red_Stained_Oak_Red_Stained_Oak_Angle_1024x1024.jpg?v=1655740135&auto=format&w=430&",
+      "id": 17
+    },
+    {
+      "name": "KaschKasch Floor Mirror",
+      "menu": "Menu",
+      "strikethrough": 279,
+      "price": 237,
+      "url": "https://hausimg.imgix.net/s/files/1/0053/2792/products/8000539_KaschKaschFloorMirror_Black_01_1024x1024.jpg?v=1655809560&auto=format&w=430&",
+      "id": 18
+    },
+    {
+      "name": "Plinth grand",
+      "menu": "Menu",
+      "strikethrough": 2499,
+      "price": 2124,
+      "url": "https://hausimg.imgix.net/s/files/1/0053/2792/products/7030319_Plinth_Grand_Calacatta_Viola_Top_1_1024x1024.jpg?v=1655739239&auto=format&w=430&",
+      "id": 19
+    },
+    {
+      "name": "KaschKasch Floor Mirror",
+      "menu": "Menu",
+      "strikethrough": 279,
+      "price": 237,
+      "url": "https://hausimg.imgix.net/s/files/1/0053/2792/products/8000539_KaschKaschFloorMirror_Black_01_1024x1024.jpg?v=1655809560&auto=format&w=430&",
+      "id": 20
+    }
+  ],
+"hospital":[
+	{
+	"name":"City Hospital",
+	"address":"Sultanpur"
+	}
+],
+"doctor":[
+	{
+	"name":"John",
+	"Specialization":"Nephorlogy"
+	}
+],
+ "restaurant":[
+    {
+        "id":1,
+        "name":"Rawsome Lifestyle",
+        "title":"Rawsome",
+        "url":"https://www.kindmeal.my/photos/deal/5/590-3137-l.jpg",
+        "catogery":"Breakfast",
+        "discount":"20%",
+        "expireDate":6,
+        "address":"Sunai Buloh, Selangor",
+        "details":"Enjoy healthy, guit-free, raw food meals artfully crafted for a nutritious and delicious experience. Induls in a satisfying mea..",
+        "rating":4.5,
+        "reviews":6,
+        "egg":"https://www.kindmeal.my/images/icon_egg.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk_disabled.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol_disabled.png"
+    },
+    {
+        "id":2,
+        "name":"Flavours Around the world",
+        "title":"The Black Cat Cafe",
+        "url":"https://www.kindmeal.my/photos/deal/4/457-2109-l.jpg",
+        "catogery":"Indian",
+        "discount":"20%",
+        "expireDate":4,
+        "address":"Kuala Lumpur, Wilayah Persekutuan",
+        "details":"Western and Asian cuisine, all prepared in our humble kitchen with utmost passion and love. On Weekdays, select ANY items from ..",
+        "rating":5,
+        "reviews":24,
+        "egg":"https://www.kindmeal.my/images/icon_egg.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol_disabled.png"
+    },
+    {
+        "id":3,
+        "name":"Cozy Oriental Dining",
+        "title":"Ring Zhi Vegetarian Restarantr 灵芝素食饭店",
+        "url":"https://www.kindmeal.my/photos/deal/5/506-2350-l.jpg",
+        "catogery":"",
+        "discount":"20%",
+        "expireDate":7,
+        "address":"Kepong, Kuala Lumpur",
+        "details":"This place brings back memories to those days where we would have such delicious authentic meals for festive eats. Select from AN..",
+        "rating":5,
+        "reviews":13,
+        "egg":"https://www.kindmeal.my/images/icon_egg.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol_disabled.png"
+    },
+    {
+        "id":4,
+        "name":"Scrumptious Croutons",
+        "title":"Croutons Cafe",
+        "url":"https://www.kindmeal.my/photos/deal/5/529-2478-l.jpg",
+        "catogery":"Local Delights",
+        "discount":"20%",
+        "expireDate":5,
+        "address":"Seri Kembangan, Selangor",
+        "details":"Croutons brings you a sumptuous variety of international cuisines. Indulge in any of the meat-free items from our menu below: ..",
+        "rating":4.5,
+        "reviews":5,
+        "egg":"https://www.kindmeal.my/images/icon_egg.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol.png"
+    },
+    {
+        "id":5,
+        "name":"Affordable Quality Meals",
+        "title":"Tze Ern Vege Restaurant",
+        "url":"https://www.kindmeal.my/photos/deal/6/657-4063-l.jpg",
+        "catogery":"Pasta",
+        "discount":"15%",
+        "expireDate":12,
+        "address":"Mont Kiara, Kuala Lumpur",
+        "details":"We strive to provide good food, good price and good service to our diners. Visit us to enjoy a wide variety of quality vegetarian ..",
+        "rating":4.5,
+        "reviews":7,
+        "egg":"https://www.kindmeal.my/images/icon_egg.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol_disabled.png"
+    },
+    {
+        "id":6,
+        "name":"Healthy, Sustainable Meals",
+        "title":"Lohas Vegetarian Bistro",
+        "url":"https://www.kindmeal.my/photos/deal/6/642-3775-l.jpg",
+        "catogery":"Jap & Korean",
+        "discount":"10%",
+        "expireDate":10,
+        "address":"Petaling Jaya, Selangor",
+        "details":"Experience healthy, sustainable living with our delicious and affordable meat-free meals. Select any from oiur menu: BENTO SET Se..",
+        "rating":4.5,
+        "reviews":8,
+        "egg":"https://www.kindmeal.my/images/icon_egg.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol_disabled.png"
+    },
+    {
+        "id":7,
+        "name":"Wellness Meal + 10% off Organic Products",
+        "title":"Juve Wellness Puchong",
+        "url":"https://www.kindmeal.my/photos/deal/4/403-1390-l.jpg",
+        "catogery":"Salad",
+        "discount":"10%",
+        "expireDate":11,
+        "address":"Puchong, Selangor",
+        "details":"Select from Ala Carte meal items from the menu, served with a cup of Wellness Tea! Featured food menu items include: Juve Four Se..",
+        "rating":5,
+        "reviews":4,
+        "egg":"https://www.kindmeal.my/images/icon_egg_disabled.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk_disabled.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol_disabled.png"
+    },
+    {
+        "id":8,
+        "name":"Dining Bowl Asian Delicacies",
+        "title":"Dining Bowl",
+        "url":"https://www.kindmeal.my/photos/deal/3/383-1189-l.jpg",
+        "catogery":"Bakery",
+        "discount":"20%",
+        "expireDate":2,
+        "address":"Kuala Mupur, Wilayah Persekutuan",
+        "details":"Dine in this authentic cozy Chinese environment with any items from the menu, made with fresh and quality ingredients, in an envir..",
+        "rating":4,
+        "reviews":12,
+        "egg":"https://www.kindmeal.my/images/icon_egg.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol_disabled.png"
+    },
+    {
+        "id":9,
+        "name":"Plant-Based Culinary Experience",
+        "title":"PC Studio Cafe",
+        "url":"https://www.kindmeal.my/photos/deal/6/684-4446-l.jpg",
+        "catogery":"Burger",
+        "discount":"15%",
+        "expireDate":5,
+        "address":"Petaling Jaya, Selangor",
+        "details":"We indulge you in a delightful meat-free Western culinary experience within a cozy ambience, while also offering plant-based cooki..",
+        "rating":5,
+        "reviews":8,
+        "egg":"https://www.kindmeal.my/images/icon_egg.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol_disabled.png"
+    },
+    {
+        "id":10,
+        "name":"Churros, Coffee & Meals",
+        "title":"PCLO Cafe",
+        "url":"https://www.kindmeal.my/photos/deal/4/467-2796-l.jpg",
+        "catogery":"Tea & Dessert",
+        "discount":"20%",
+        "expireDate":11,
+        "address":"Kuala Lumpur, Wilayah Persekutuan",
+        "details":"Think of Churros, think of PCLO Cafe! Each batch of eggles Churros is made with passion and from scratch in our kitchen, Which ..",
+        "rating":4.5,
+        "reviews":3,
+        "egg":"https://www.kindmeal.my/images/icon_egg.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol_disabled.png"
+    },
+    {
+        "id":11,
+        "name":"Authentic Asian Experience",
+        "title":"Rawsome",
+        "url":"https://www.kindmeal.my/photos/deal/6/623-3482-l.jpg",
+        "catogery":"Breakfast",
+        "discount":"20%",
+        "expireDate":6,
+        "address":"Sunai Buloh, Selangor",
+        "details":"Enjoy healthy, guit-free, raw food meals artfully crafted for a nutritious and delicious experience. Induls in a satisfying mea..",
+        "rating":4.5,
+        "reviews":6,
+        "egg":"https://www.kindmeal.my/images/icon_egg.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk_disabled.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol_disabled.png"
+    },
+    {
+        "id":12,
+        "name":"Trade & Dine Adventure",
+        "title":"Drop Exchange",
+        "url":"https://www.kindmeal.my/photos/deal/6/698-4639-l.jpg",
+        "catogery":"Indian",
+        "discount":"20%",
+        "expireDate":4,
+        "address":"Kuala Lumpur, Wilayah Persekutuan",
+        "details":"Western and Asian cuisine, all prepared in our humble kitchen with utmost passion and love. On Weekdays, select ANY items from ..",
+        "rating":5,
+        "reviews":24,
+        "egg":"https://www.kindmeal.my/images/icon_egg.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol_disabled.png"
+    },
+    {
+        "id":13,
+        "name":"Nutritious Meets Delicious",
+        "title":"Wise Crafters",
+        "url":"https://www.kindmeal.my/photos/deal/6/633-3874-l.jpg",
+        "catogery":"",
+        "discount":"20%",
+        "expireDate":7,
+        "address":"Kepong, Kuala Lumpur",
+        "details":"This place brings back memories to those days where we would have such delicious authentic meals for festive eats. Select from AN..",
+        "rating":5,
+        "reviews":13,
+        "egg":"https://www.kindmeal.my/images/icon_egg.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol_disabled.png"
+    },
+    {
+        "id":14,
+        "name":"Lovely Fusion Meals",
+        "title":"Love Veggie",
+        "url":"https://www.kindmeal.my/photos/deal/6/621-3576-l.jpg",
+        "catogery":"Local Delights",
+        "discount":"20%",
+        "expireDate":5,
+        "address":"Seri Kembangan, Selangor",
+        "details":"Croutons brings you a sumptuous variety of international cuisines. Indulge in any of the meat-free items from our menu below: ..",
+        "rating":4.5,
+        "reviews":5,
+        "egg":"https://www.kindmeal.my/images/icon_egg.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol.png"
+    },
+    {
+        "id":15,
+        "name":"Honestly Superb Meals",
+        "title":"Honest Bakery Cafe",
+        "url":"https://www.kindmeal.my/photos/deal/6/615-3466-l.jpg",
+        "catogery":"Pasta",
+        "discount":"15%",
+        "expireDate":12,
+        "address":"Mont Kiara, Kuala Lumpur",
+        "details":"We strive to provide good food, good price and good service to our diners. Visit us to enjoy a wide variety of quality vegetarian ..",
+        "rating":4.5,
+        "reviews":7,
+        "egg":"https://www.kindmeal.my/images/icon_egg.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol_disabled.png"
+    },
+    {
+        "id":16,
+        "name":"Blissful, Nutritious Experience",
+        "title":"Blissful Cottage by Jing Shi Bakery",
+        "url":"https://www.kindmeal.my/photos/deal/7/711-4936-l.jpg",
+        "catogery":"Jap & Korean",
+        "discount":"10%",
+        "expireDate":10,
+        "address":"Petaling Jaya, Selangor",
+        "details":"Experience healthy, sustainable living with our delicious and affordable meat-free meals. Select any from oiur menu: BENTO SET Se..",
+        "rating":4.5,
+        "reviews":8,
+        "egg":"https://www.kindmeal.my/images/icon_egg.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol_disabled.png"
+    },
+    {
+        "id":17,
+        "name":"Ahimsa Online Store",
+        "title":"Ahimsa",
+        "url":"https://www.kindmeal.my/photos/deal/2/271-519-l.jpg",
+        "catogery":"Salad",
+        "discount":"10%",
+        "expireDate":11,
+        "address":"Beranang, Selangor",
+        "details":"Select from Ala Carte meal items from the menu, served with a cup of Wellness Tea! Featured food menu items include: Juve Four Se..",
+        "rating":5,
+        "reviews":4,
+        "egg":"https://www.kindmeal.my/images/icon_egg_disabled.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk_disabled.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol_disabled.png"
+    },
+    {
+        "id":18,
+        "name":"Salads, Sammich and Juices For 2",
+        "title":"Salad Atelier",
+        "url":"https://www.kindmeal.my/photos/deal/6/610-3386-l.jpg",
+        "catogery":"Bakery",
+        "discount":"20%",
+        "expireDate":3,
+        "address":"Kuala Mupur, Wilayah Persekutuan",
+        "details":"Dine in this authentic cozy Chinese environment with any items from the menu, made with fresh and quality ingredients, in an envir..",
+        "rating":4.5,
+        "reviews":12,
+        "egg":"https://www.kindmeal.my/images/icon_egg_disabled.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk_disabled.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol_disabled.png"
+    },
+    {
+        "id":19,
+        "name":"Melakan Indian Fusion Cuisine",
+        "title":"Ssihat Kafe",
+        "url":"https://www.kindmeal.my/photos/deal/6/626-3611-l.jpg",
+        "catogery":"Burger",
+        "discount":"15%",
+        "expireDate":5,
+        "address":"Petaling Jaya, Selangor",
+        "details":"We indulge you in a delightful meat-free Western culinary experience within a cozy ambience, while also offering plant-based cooki..",
+        "rating":5,
+        "reviews":8,
+        "egg":"https://www.kindmeal.my/images/icon_egg.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol_disabled.png"
+    },
+    {
+        "id":20,
+        "name":"Earth-Friendly Meals",
+        "title":"Love Earth Cafe",
+        "url":"https://www.kindmeal.my/photos/deal/6/617-3503-l.jpg",
+        "catogery":"Tea & Dessert",
+        "discount":"20%",
+        "expireDate":11,
+        "address":"Kuala Lumpur, Wilayah Persekutuan",
+        "details":"Think of Churros, think of PCLO Cafe! Each batch of eggles Churros is made with passion and from scratch in our kitchen, Which ..",
+        "rating":4.5,
+        "reviews":3,
+        "egg":"https://www.kindmeal.my/images/icon_egg.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol_disabled.png"
+    },
+    {
+    "id":21,
+        "name":"Rawsome Lifestyle",
+        "title":"Rawsome",
+        "url":"https://www.kindmeal.my/photos/deal/5/590-3137-l.jpg",
+        "catogery":"Breakfast",
+        "discount":"20%",
+        "expireDate":6,
+        "address":"Sunai Buloh, Selangor",
+        "details":"Enjoy healthy, guit-free, raw food meals artfully crafted for a nutritious and delicious experience. Induls in a satisfying mea..",
+        "rating":4.5,
+        "reviews":6,
+        "egg":"https://www.kindmeal.my/images/icon_egg.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk_disabled.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol_disabled.png"
+    },
+    {
+        "id":22,
+        "name":"Flavours Around the world",
+        "title":"The Black Cat Cafe",
+        "url":"https://www.kindmeal.my/photos/deal/4/457-2109-l.jpg",
+        "catogery":"Indian",
+        "discount":"20%",
+        "expireDate":4,
+        "address":"Kuala Lumpur, Wilayah Persekutuan",
+        "details":"Western and Asian cuisine, all prepared in our humble kitchen with utmost passion and love. On Weekdays, select ANY items from ..",
+        "rating":5,
+        "reviews":24,
+        "egg":"https://www.kindmeal.my/images/icon_egg.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol_disabled.png"
+    },
+    {
+        "id":23,
+        "name":"Cozy Oriental Dining",
+        "title":"Ring Zhi Vegetarian Restarantr 灵芝素食饭店",
+        "url":"https://www.kindmeal.my/photos/deal/5/506-2350-l.jpg",
+        "catogery":"",
+        "discount":"20%",
+        "expireDate":7,
+        "address":"Kepong, Kuala Lumpur",
+        "details":"This place brings back memories to those days where we would have such delicious authentic meals for festive eats. Select from AN..",
+        "rating":5,
+        "reviews":13,
+        "egg":"https://www.kindmeal.my/images/icon_egg.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol_disabled.png"
+    },
+    {
+        "id":24,
+        "name":"Scrumptious Croutons",
+        "title":"Croutons Cafe",
+        "url":"https://www.kindmeal.my/photos/deal/5/529-2478-l.jpg",
+        "catogery":"Local Delights",
+        "discount":"20%",
+        "expireDate":5,
+        "address":"Seri Kembangan, Selangor",
+        "details":"Croutons brings you a sumptuous variety of international cuisines. Indulge in any of the meat-free items from our menu below: ..",
+        "rating":4.5,
+        "reviews":5,
+        "egg":"https://www.kindmeal.my/images/icon_egg.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol.png"
+    },
+    {
+        "id":25,
+        "name":"Affordable Quality Meals",
+        "title":"Tze Ern Vege Restaurant",
+        "url":"https://www.kindmeal.my/photos/deal/6/657-4063-l.jpg",
+        "catogery":"Pasta",
+        "discount":"15%",
+        "expireDate":12,
+        "address":"Mont Kiara, Kuala Lumpur",
+        "details":"We strive to provide good food, good price and good service to our diners. Visit us to enjoy a wide variety of quality vegetarian ..",
+        "rating":4.5,
+        "reviews":7,
+        "egg":"https://www.kindmeal.my/images/icon_egg.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol_disabled.png"
+    },
+    {
+        "id":26,
+        "name":"Healthy, Sustainable Meals",
+        "title":"Lohas Vegetarian Bistro",
+        "url":"https://www.kindmeal.my/photos/deal/6/642-3775-l.jpg",
+        "catogery":"Jap & Korean",
+        "discount":"10%",
+        "expireDate":10,
+        "address":"Petaling Jaya, Selangor",
+        "details":"Experience healthy, sustainable living with our delicious and affordable meat-free meals. Select any from oiur menu: BENTO SET Se..",
+        "rating":4.5,
+        "reviews":8,
+        "egg":"https://www.kindmeal.my/images/icon_egg.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol_disabled.png"
+    },
+    {
+        "id":27,
+        "name":"Wellness Meal + 10% off Organic Products",
+        "title":"Juve Wellness Puchong",
+        "url":"https://www.kindmeal.my/photos/deal/4/403-1390-l.jpg",
+        "catogery":"Salad",
+        "discount":"10%",
+        "expireDate":11,
+        "address":"Puchong, Selangor",
+        "details":"Select from Ala Carte meal items from the menu, served with a cup of Wellness Tea! Featured food menu items include: Juve Four Se..",
+        "rating":5,
+        "reviews":4,
+        "egg":"https://www.kindmeal.my/images/icon_egg_disabled.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk_disabled.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol_disabled.png"
+    },
+    {
+        "id":28,
+        "name":"Dining Bowl Asian Delicacies",
+        "title":"Dining Bowl",
+        "url":"https://www.kindmeal.my/photos/deal/3/383-1189-l.jpg",
+        "catogery":"Bakery",
+        "discount":"20%",
+        "expireDate":2,
+        "address":"Kuala Mupur, Wilayah Persekutuan",
+        "details":"Dine in this authentic cozy Chinese environment with any items from the menu, made with fresh and quality ingredients, in an envir..",
+        "rating":4,
+        "reviews":12,
+        "egg":"https://www.kindmeal.my/images/icon_egg.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol_disabled.png"
+    },
+    {
+        "id":29,
+        "name":"Plant-Based Culinary Experience",
+        "title":"PC Studio Cafe",
+        "url":"https://www.kindmeal.my/photos/deal/6/684-4446-l.jpg",
+        "catogery":"Burger",
+        "discount":"15%",
+        "expireDate":5,
+        "address":"Petaling Jaya, Selangor",
+        "details":"We indulge you in a delightful meat-free Western culinary experience within a cozy ambience, while also offering plant-based cooki..",
+        "rating":5,
+        "reviews":8,
+        "egg":"https://www.kindmeal.my/images/icon_egg.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol_disabled.png"
+    },
+    {
+        "id":30,
+        "name":"Churros, Coffee & Meals",
+        "title":"PCLO Cafe",
+        "url":"https://www.kindmeal.my/photos/deal/4/467-2796-l.jpg",
+        "catogery":"Tea & Dessert",
+        "discount":"20%",
+        "expireDate":11,
+        "address":"Kuala Lumpur, Wilayah Persekutuan",
+        "details":"Think of Churros, think of PCLO Cafe! Each batch of eggles Churros is made with passion and from scratch in our kitchen, Which ..",
+        "rating":4.5,
+        "reviews":3,
+        "egg":"https://www.kindmeal.my/images/icon_egg.png",
+        "milk":"https://www.kindmeal.my/images/icon_milk.png",
+        "alchohol":"https://www.kindmeal.my/images/icon_alcohol_disabled.png"
+    }
+]
 }
