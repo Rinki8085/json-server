@@ -50,14 +50,14 @@
   ],
   "hotel":[
     {
-    "category": "",
-    "image_url": "",
-    "type_of_room": "",
-    "bed_type": "",
-		"no_of_persons":"",
-		"capacity":"".
-		"cost":"",
-		"booked":false,
+    "category": "family",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcZrIF2aB6wwZ4Bt2vvx1E0QGzVoCzu2KxwA&usqp=CAU",
+    "type_of_room": "ac",
+    "bed_type": "double",
+    "no_of_persons":"2",
+    "capacity":"4",
+    "cost":"3000",
+    "booked":false,
   }
     ]
 }
