@@ -32,6 +32,7 @@
   ],
   "hotel":[
     {
+        "id":1,
     "category": "family",
     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcZrIF2aB6wwZ4Bt2vvx1E0QGzVoCzu2KxwA&usqp=CAU",
     "type_of_room": "ac",
