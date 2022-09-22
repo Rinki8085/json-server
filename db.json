@@ -47,5 +47,17 @@
       "Description": "Tata Altroz with all original documents",
       "Price": 500000
     }
-  ]
+  ],
+  "hotel":[
+    {
+    "category": "",
+    "image_url": "",
+    "type_of_room": "",
+    "bed_type": "",
+		"no_of_persons":"",
+		"capacity":"".
+		"cost":"",
+		"booked":false,
+  }
+    ]
 }
