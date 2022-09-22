@@ -39,7 +39,7 @@
     "no_of_persons":"2",
     "capacity":"4",
     "cost":"3000",
-    "booked":false,
+    "booked":false
   }
     ]
 }
